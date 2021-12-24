@@ -7,7 +7,10 @@
     <title>Birthday Web</title>
     <link rel="stylesheet" href="home.css">
     <link rel="shortcut icon"
-    href="logo1.png">
+    href="logo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&display=swap" rel="stylesheet">
@@ -21,33 +24,37 @@
 
 <body>
     <ul class="topnav">
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html">This Is Us</a></li>
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="wish&words.html">Wish&Words</a></li>
+      <li><a href="wish&words.html">Words</a></li>
       <li><a class="active" href="home.html">Home</a></li>
-      <li class="right"><a href="#about"><b>Salsabila's Birthday</b></a></li>
+      <li class="right" style="color: #0D47A1; font-size: 18px; margin-top: 16px; margin-left: 13px;"><b>Salsabila's Birthday</b></a></li>
     </ul>
     <div>
-    <img src="home3.png" alt="Happy Birthday" >
+    <img src="home4.png" alt="Happy Birthday" >
     </br>
     <h1>Selamat Ulang Tahun - Salsabila Berliana Putri</h1>
-    <p>Hi Salsabila, as known as Saber</br> its me ur bestie 'Dhilaa'</br> i made this web for you, as my greeting card to you</p>
-    </br><p>Happy Birthday bestie &#128151 </br> Sorry for the lack of this web, im still a beginner to this skill.</br> See you in another page!!</p>
+    <p style="margin-top: 30px;">Hi Salsabila, as known as Saber</br> its me ur bestie 'Dhilaa'</br> i made this web for you, as my greeting card to you</p>
+    <p>Happy Birthday bestie &#128151 </br> Sorry for the lack of this web, im still a beginner to this skill.</br> See you in another page!!</p>
     </div>
 
-    <div class="justify-content-center">
-      <div>
-      <img id="myImage" src="her4.jpg" 
-          style= "justify-content:start; width:100px; height: 100px;">
+    <div>
+      <p style="margin-top: 30px; color: #0D47A1;"><b>Metamorph Of Salsabila</b></p>
+      <img style="padding-top: 5px;" id="myImage" class="myImage" src="photohome.jpg">
+      <div class="container">
+        <div class="center">
+        <button style="background: hotpink;
+        color: white;
+        border: white 3px solid;
+        border-radius: 5px; width: 80px; height: 40px;" onclick="document.getElementById('myImage').src
+            ='before.jpg'">Before</button>
+        <button style="background: hotpink;
+        color: white;
+        border: white 3px solid;
+        border-radius: 5px; width: 80px; height: 40px;" onclick="document.getElementById('myImage').src
+            ='after.jpg'">After</button>
+        </div>
       </div>
-
-      <div style="justify-content: center;">
-        <button onclick="document.getElementById('myImage').src
-            ='her8.jpg'">Turn On</button>
-        <button onclick="document.getElementById('myImage').src
-            ='her5.jpg'">Turn off</button>
-      </div>
-    </div>
 
     </br>
     <footer>

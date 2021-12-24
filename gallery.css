@@ -8,17 +8,25 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFC4D6;
+  background-color: #A2D2FF;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
-
-.gallery{
-  text-align: center; 
+p {
+  text-align: center;
+  width: 50%;
+  position: inline-block;
+  margin: 0 auto;
+  font-size: 100%;
   font-family: 'Merriweather', serif;
   font-family: 'Ubuntu', sans-serif;
+}
+.gallery{
+  text-align: center; 
+  font-family: 'Dancing Script', cursive;
   font-size: 50px;
+  padding-top: 20px;
 }
 .right{
   font-family: 'Merriweather', serif;
@@ -42,9 +50,9 @@ ul.topnav li a {
   font-family: 'Ubuntu', sans-serif;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #FFAFCC;}
+ul.topnav li a:hover:not(.active) {background-color: #ffbdde;}
 
-ul.topnav li a.active {background-color: #6da7cc;}
+ul.topnav li a.active {background-color: #42A5F5;}
 
 ul.topnav li.right {float: left;}
 
@@ -54,7 +62,7 @@ ul.topnav li.right {float: left;}
 }
   .footer{
     font-family: sans-serif;
-    background-color: #31326f;
+    background-color: #FF5D8F;
     color: white;
     padding: 30px;
     /* position: fixed; */
@@ -63,6 +71,7 @@ ul.topnav li.right {float: left;}
     display: block;
     text-align: center;
     margin-right: 0px;
+    margin-top: 70px;
 } 
 div.gallery {
   border: 1px solid #ccc;

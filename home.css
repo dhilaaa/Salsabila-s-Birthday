@@ -15,8 +15,9 @@ h1{
   font-family: 'Merriweather', serif;
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
-  color: #345e7d;
+  color: #fe5d9f;
 }
+
 .right{
   font-family: 'Merriweather', serif;
   font-family: 'Satisfy', cursive;
@@ -38,7 +39,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFC4D6;
+  background-color: #A2D2FF;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -59,9 +60,9 @@ ul.topnav li a {
   font-family: 'Ubuntu', sans-serif;
 }
 
-ul.topnav li a:hover:not(.active) {background-color:#FFAFCC;}
+ul.topnav li a:hover:not(.active) {background-color:#ffbdde;}
 
-ul.topnav li a.active {background-color: #6da7cc;}
+ul.topnav li a.active {background-color: #42A5F5;}
 
 ul.topnav li.right {float: left;}
 
@@ -69,9 +70,29 @@ ul.topnav li.right {float: left;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+
+.myImage {
+  justify-content:start; 
+  width:20%;
+}
+
+.container { 
+  height: 60px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .footer{
   font-family: sans-serif;
-  background-color: #31326f;
+  background-color: #FF5D8F;
   color: white;
   padding: 30px;
     /* position: fixed; */
@@ -80,4 +101,5 @@ ul.topnav li.right {float: left;}
   display: block;
   text-align: center;
   margin-right: 0px;
+  margin-top: 30px;
 } 
